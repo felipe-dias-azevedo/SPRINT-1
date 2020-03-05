@@ -51,7 +51,7 @@
     var caixasv = Number(caixas.value)
     var mobilev = Number(mobile.value)
     var catracav = Number(catra.value)
-    var total = (tamanhov * 0.2) + (portasv * 45) + (caixasv * 5) + (mobilev * 200) + (catracav * 600)
+    var total = (tamanhov * 1.2) + (portasv * 50) + (caixasv * 40) + (mobilev * 1000) + (catracav * 600)
         
         final.innerHTML = `O serviço da (nome da empresa) para o SuperMercado <b>${nome.value}</b>, vai ser de <u>R$${total}</u>.`
     }
