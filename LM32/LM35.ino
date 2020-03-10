@@ -9,7 +9,7 @@ void setup() {
 }
 
 void loop() {
-  valorLido = analogRead (5);
+  valorLido = analogRead (0);
   temperatura = (valorLido * 0.00488);
   temperatura = temperatura * 100;
   Serial.print(temperatura);
