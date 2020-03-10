@@ -6,7 +6,7 @@
     <title>Calculador Financeiro</title>
 </head>
 <body>
-    <img src="" alt="">
+    <img src="logodeitado.png" alt="">
     Nome do SuperMercado: <input type="text" id="nome" autofocus><p>
     CEP: <input type="text" id="cep"></p><p>
     Tamanho do SuperMercado (em m²): <input  id="tamanho"></p><p>
@@ -57,3 +57,5 @@
     }
 
 </script>
+
+
